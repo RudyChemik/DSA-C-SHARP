@@ -6,18 +6,29 @@ using System.Threading.Tasks;
 
 namespace DSA_C_SHARP.DataStructures.Stack
 {
+    /// <summary>
+    /// STACK implementation on arrays.
+    /// FILO (first in last out).
+    /// </summary>
     public class ArrayStack<T>
     {
         public T[] stack;
         private int capacity;
         private int top;
 
+        /// <summary>
+        /// Constructor - initialization of the stack.
+        /// </summary>
         public ArrayStack(int capacity) 
         {
             this.capacity = capacity;
             stack = new T [capacity];
             top = -1;
         }
+
+        /// <summary>
+        /// Pushing at the top
+        /// </summary>
 
         public void Push(T item) 
         {
@@ -29,6 +40,9 @@ namespace DSA_C_SHARP.DataStructures.Stack
 
         }
 
+        /// <summary>
+        /// Popping lastly pushed element
+        /// </summary>
         public T Pop() 
         {
             if (IsEmpty())
