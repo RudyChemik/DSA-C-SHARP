@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <Folder Include="DataStructures\Heap\" />
-    <Folder Include="DataStructures\BST %28BinarySearchTree%29\" />
   </ItemGroup>
 
   <ItemGroup>
