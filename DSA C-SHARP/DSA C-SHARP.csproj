@@ -9,7 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Algorithms\String\" />
     <Folder Include="DataStructures\Heap\" />
+    <Folder Include="DataStructures\Graph\" />
+    <Folder Include="DataStructures\String\SuffixTree\" />
   </ItemGroup>
 
   <ItemGroup>
